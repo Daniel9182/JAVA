@@ -6,7 +6,7 @@ public class cajero
     public static void main (String[]args)
     {
         Scanner reader = new Scanner(System.in);
-        System.out.println("\t\t ATM \n");
+https://github.com/DiegoDG-01/JAVA/pull/1/files        System.out.println("\t\t ATM \n");
         System.out.println("\ninserte su tarjeta de credito o debito");
         
         
