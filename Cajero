@@ -13,13 +13,33 @@ public class cajero
         Scanner reader = new Scanner(System.in);
        
         System.out.println("\t\t ATM \n");
-        System.out.println("inserte su tarjeta de credito o debito\n");
-        System.out.println("1.- Ingrese Su numero de tarjeta y si pin");
-        System.out.println("2.- Checar Saldo Actual");
+        System.out.println("1.- inserte su tarjeta de credito o debito");
+        System.out.println("2.- Ingrese Su numero de tarjeta y su pin");
+        System.out.println("3.- Checar Saldo Actual");
         System.out.print("\nR = ");
        
         opcion = reader.nextInt();
         
+        switch (opcion)
+        {
+        case 1:
+        {
+        
+        }
+        
+        case 2:
+        {
+          System.out.println("Ingrese su numero de tarjeta");
+          
+          System.out.println("");
+        }
+        
+        case 3:
+        {
+        
+        }
+        
+        }
         
     }
 }
