@@ -18,7 +18,7 @@ public class cajero
         System.out.println("3.- Checar Saldo Actual");
         System.out.println("R = ");
        
-        opcion = reader.nextint();
+        opcion = reader.nextInt();
         
         
     }
