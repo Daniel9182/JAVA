@@ -7,6 +7,7 @@ public class cajero
     {
         Scanner reader = new Scanner(System.in);
         System.out.println("\t\t ATM \n");
+        System.out.println("\n
         
         
     }
