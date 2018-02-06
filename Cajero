@@ -1,7 +1,55 @@
+import java.util.Scanner;
+
 public class cajero
+
 {
     public static void main (String[]args)
     {
+        int opcion;
+        int pin;
+        int tarjeta;
+        int ntarjeta;
+        double saldo;
+        
+        Scanner reader = new Scanner(System.in);
+       
+        System.out.println("\t\t ATM \n");
+        System.out.println("1.- inserte su tarjeta de credito o debito");
+        System.out.println("2.- Ingrese Su numero de tarjeta y su pin");
+        System.out.println("3.- Checar Saldo Actual");
+        System.out.print("\nR = ");
+       
+        opcion = reader.nextInt();
+        
+        switch (opcion)
+        {
+        case 1:
+        {
+        
+        }
+        break;
+        
+        case 2:
+        {
+          System.out.println("\nIngrese su numero de tarjeta");
+          System.out.print("\nR = ");
+          ntarjeta=reader.nextInt();
+          
+          System.out.println("\ningrese  su pin");
+          System.out.print("\nR = ");
+          pin=reader.nextInt();
+          
+        }
+        break;
+        
+        case 3:
+        {
+        
+        }
+        break;
+        
+        }
+       
         
     }
 }
