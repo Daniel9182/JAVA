@@ -16,7 +16,7 @@ public class cajero
         System.out.println("1.- inserte su tarjeta de credito o debito");
         System.out.println("2.- Ingrese Su numero de tarjeta y si pin");
         System.out.println("3.- Checar Saldo Actual");
-        System.out.println("R = ");
+        System.out.print("R = ");
        
         opcion = reader.nextInt();
         
