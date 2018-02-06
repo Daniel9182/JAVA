@@ -31,10 +31,12 @@ public class cajero
         
         case 2:
         {
-          System.out.println("Ingrese su numero de tarjeta");
+          System.out.println("\nIngrese su numero de tarjeta");
+          System.out.print("\nR = ");
           ntarjeta=reader.nextInt();
           
-          System.out.println("ingrese  su pin");
+          System.out.println("\ingrese  su pin");
+          System.out.print("\nR = ");
           pin=reader.nextInt();
           
         }
