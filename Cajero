@@ -6,6 +6,7 @@ public class cajero
     public static void main (String[]args)
     {
         int opcion;
+        int pin;
         int tarjeta;
         int ntarjeta;
         double saldo;
@@ -31,18 +32,19 @@ public class cajero
         case 2:
         {
           System.out.println("Ingrese su numero de tarjeta");
-          
-          System.out.println("");
+          ntarjeta=reader.nextInt();
+          System.out.println("ingrese  su pin");
+          pin=reader.nextInt();
         }
         break;
         
         case 3:
         {
         
-        }
+        }break;
         
         }
-        break;
+       
         
     }
 }
