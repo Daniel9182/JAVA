@@ -26,6 +26,7 @@ public class cajero
         {
         
         }
+        break;
         
         case 2:
         {
@@ -33,6 +34,7 @@ public class cajero
           
           System.out.println("");
         }
+        break;
         
         case 3:
         {
@@ -40,6 +42,7 @@ public class cajero
         }
         
         }
+        break;
         
     }
 }
