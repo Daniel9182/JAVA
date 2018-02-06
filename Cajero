@@ -33,15 +33,18 @@ public class cajero
         {
           System.out.println("Ingrese su numero de tarjeta");
           ntarjeta=reader.nextInt();
+          
           System.out.println("ingrese  su pin");
           pin=reader.nextInt();
+          
         }
         break;
         
         case 3:
         {
         
-        }break;
+        }
+        break;
         
         }
        
